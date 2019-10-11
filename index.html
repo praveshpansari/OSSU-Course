@@ -369,9 +369,11 @@
     <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
     <script>
-        $(Document).ready(function(){
-            $("#mycarousel").carousel({interval:2000});
-            $("#carouselBtn").click(function(){
+        $(Document).ready(function () {
+            $("#mycarousel").carousel({
+                interval: 2000
+            });
+            $("#carouselBtn").click(function () {
                 if ($("#carouselBtn").children("span").hasClass("fa-pause")) {
                     $("#mycarousel").carousel('pause');
                     $("#carouselBtn").children("span").removeClass("fa-pause");
