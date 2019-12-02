@@ -94,7 +94,4 @@ public class MyProfileTest {
         mainProfile.removeEvent("Bill's Lecture");
         assertEquals(mainProfile.upcomingEventNum(), 3);
     }
-
-    // TODO: write some more test to obtain 100% test coverage
-
 }
