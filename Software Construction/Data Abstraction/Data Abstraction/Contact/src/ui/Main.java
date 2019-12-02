@@ -4,6 +4,8 @@ import model.Contact;
 
 import java.util.Scanner;
 
+import static model.Contact.ContactType.*;
+
 public class Main {
 
     public static void main(String[] args) {
@@ -15,13 +17,13 @@ public class Main {
         System.out.println("Please set the contact type:\nEnter '1' for 'WORK',\n'2' for 'FRIEND',\n'3' for 'FAMILY'.");
         switch (s.next()) {
             case "1":
-                c.setType(Contact.ContactType.WORK);
+                c.setType(WORK);
                 break;
             case "2":
-                c.setType(Contact.ContactType.FRIEND);
+                c.setType(FRIEND);
                 break;
             case "3":
-                c.setType(Contact.ContactType.FAMILY);
+                c.setType(FAMILY);
                 break;
             default:
                 System.out.println("Invalid key. Skipping this step.");

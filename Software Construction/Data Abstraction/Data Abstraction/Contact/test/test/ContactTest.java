@@ -5,6 +5,7 @@ import org.junit.Before;
 import org.junit.Test;
 
 
+import static model.Contact.ContactType.WORK;
 import static org.junit.Assert.assertEquals;
 
 public class ContactTest {
@@ -18,8 +19,8 @@ public class ContactTest {
 
     @Test
     public void setType() {
-        test.setType(Contact.ContactType.WORK);
-        assertEquals(Contact.ContactType.WORK, test.getType());
+        test.setType(WORK);
+        assertEquals(WORK, test.getType());
     }
 
     @Test
@@ -30,7 +31,7 @@ public class ContactTest {
 
     @Test
     public void automateResponse() {
-        test.setType(Contact.ContactType.WORK);
+        test.setType(WORK);
         assertEquals("I'll get you back at work.", test.automateResponse());
     }
 }

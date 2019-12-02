@@ -49,48 +49,51 @@
       <recent name="C:\Users\prave\Documents\OSSU Course\Software Construction\Data Abstraction\Data Abstraction\Takeout Order" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.BandTest">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="application.Main" />
-      <module name="Band" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="BandTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Band" />
+  <component name="RunManager" selected="JUnit.TransactionSummaryTest">
+    <configuration name="TransactionSummaryTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TransactionSummary" />
       <option name="PACKAGE_NAME" value="test" />
-      <option name="MAIN_CLASS_NAME" value="test.BandTest" />
+      <option name="MAIN_CLASS_NAME" value="test.TransactionSummaryTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BandTest.testAverageMoney" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Band" />
+    <configuration name="TransactionSummaryTest.testAddTransaction" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TransactionSummary" />
       <option name="PACKAGE_NAME" value="test" />
-      <option name="MAIN_CLASS_NAME" value="test.BandTest" />
-      <option name="METHOD_NAME" value="testAverageMoney" />
+      <option name="MAIN_CLASS_NAME" value="test.TransactionSummaryTest" />
+      <option name="METHOD_NAME" value="testAddTransaction" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BandTest.testPayMembers" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Band" />
+    <configuration name="TransactionSummaryTest.testAverageTransactionCost" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TransactionSummary" />
       <option name="PACKAGE_NAME" value="test" />
-      <option name="MAIN_CLASS_NAME" value="test.BandTest" />
-      <option name="METHOD_NAME" value="testPayMembers" />
+      <option name="MAIN_CLASS_NAME" value="test.TransactionSummaryTest" />
+      <option name="METHOD_NAME" value="testAverageTransactionCost" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BandTest.testPlayGig" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Band" />
+    <configuration name="TransactionSummaryTest.testConstructor" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TransactionSummary" />
       <option name="PACKAGE_NAME" value="test" />
-      <option name="MAIN_CLASS_NAME" value="test.BandTest" />
-      <option name="METHOD_NAME" value="testPlayGig" />
+      <option name="MAIN_CLASS_NAME" value="test.TransactionSummaryTest" />
+      <option name="METHOD_NAME" value="testConstructor" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TransactionSummaryTest.testLargestTransaction" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TransactionSummary" />
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.TransactionSummaryTest" />
+      <option name="METHOD_NAME" value="testLargestTransaction" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -98,11 +101,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.BandTest" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="JUnit.BandTest.testAverageMoney" />
-        <item itemvalue="JUnit.BandTest.testPayMembers" />
-        <item itemvalue="JUnit.BandTest.testPlayGig" />
+        <item itemvalue="JUnit.TransactionSummaryTest" />
+        <item itemvalue="JUnit.TransactionSummaryTest.testAverageTransactionCost" />
+        <item itemvalue="JUnit.TransactionSummaryTest.testLargestTransaction" />
+        <item itemvalue="JUnit.TransactionSummaryTest.testAddTransaction" />
+        <item itemvalue="JUnit.TransactionSummaryTest.testConstructor" />
       </list>
     </recent_temporary>
   </component>
@@ -127,10 +130,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="275" y="21" key="#Project_Structure/0.0.1366.728@0.0.1366.728" timestamp="1575287260394" />
-    <state x="92" y="92" width="1182" height="544" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1575287991922">
+    <state x="92" y="92" width="1182" height="544" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1575291157266">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="92" y="92" width="1182" height="544" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1366.728@0.0.1366.728" timestamp="1575287991922" />
+    <state x="92" y="92" width="1182" height="544" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1366.728@0.0.1366.728" timestamp="1575291157266" />
     <state x="509" y="78" key="#com.intellij.ide.ui.customization.CustomizableActionsPanel.FindAvailableActionsDialog" timestamp="1575188589826">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -143,33 +146,33 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="413" y="137" key="#com.intellij.ide.util.PackageChooserDialog/0.0.1366.728@0.0.1366.728" timestamp="1575287311734" />
-    <state x="181" y="287" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1575290125258">
+    <state x="181" y="287" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1575290457888">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="181" y="287" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1366.728@0.0.1366.728" timestamp="1575290125258" />
+    <state x="181" y="287" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1366.728@0.0.1366.728" timestamp="1575290457888" />
     <state x="324" y="67" key="FileChooserDialogImpl" timestamp="1575202044329">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="324" y="67" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1575202044329" />
-    <state width="1345" height="187" key="GridCell.Tab.0.bottom" timestamp="1575290143518">
+    <state width="1345" height="187" key="GridCell.Tab.0.bottom" timestamp="1575292257616">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="187" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1575290143518" />
+    <state width="1345" height="187" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1575292257616" />
     <state width="1899" height="231" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1575273938226" />
-    <state width="1345" height="187" key="GridCell.Tab.0.center" timestamp="1575290143518">
+    <state width="1345" height="187" key="GridCell.Tab.0.center" timestamp="1575292257616">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="187" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1575290143518" />
+    <state width="1345" height="187" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1575292257616" />
     <state width="1899" height="231" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1575273938226" />
-    <state width="1345" height="187" key="GridCell.Tab.0.left" timestamp="1575290143518">
+    <state width="1345" height="187" key="GridCell.Tab.0.left" timestamp="1575292257616">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="187" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1575290143518" />
+    <state width="1345" height="187" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1575292257616" />
     <state width="1899" height="231" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1575273938226" />
-    <state width="1345" height="187" key="GridCell.Tab.0.right" timestamp="1575290143518">
+    <state width="1345" height="187" key="GridCell.Tab.0.right" timestamp="1575292257616">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="187" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1575290143518" />
+    <state width="1345" height="187" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1575292257616" />
     <state width="1899" height="231" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1575273938226" />
     <state width="1345" height="213" key="GridCell.Tab.1.bottom" timestamp="1575205290772">
       <screen x="0" y="0" width="1366" height="728" />
@@ -187,10 +190,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="1345" height="213" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1575205290772" />
-    <state x="101" y="0" key="SettingsEditor" timestamp="1575287205544">
+    <state x="101" y="0" key="SettingsEditor" timestamp="1575290435947">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="101" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1575287205544" />
+    <state x="101" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1575290435947" />
     <state x="733" y="102" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1575272974144" />
     <state x="482" y="139" key="chooseDestDirectoryDialog" timestamp="1575202503652">
       <screen x="0" y="0" width="1366" height="728" />
