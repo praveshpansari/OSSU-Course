@@ -11,6 +11,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="JUnit4 Test Class" />
       </list>
     </option>
   </component>
@@ -26,6 +27,8 @@
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="create.test.in.the.same.root" value="true" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/LibrarySystem/test" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -35,52 +38,59 @@
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Java" />
   </component>
   <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="test" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\prave\Documents\OSSU Course\Software Construction\Data Abstraction\Data Abstraction\LibrarySystem" />
       <recent name="C:\Users\prave\Documents\OSSU Course\Software Construction\Data Abstraction\Data Abstraction\Takeout Order" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="main.Main" />
-      <module name="FriendNet" />
+  <component name="RunManager" selected="JUnit.ContactTest">
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ui.Main" />
+      <module name="Contact" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EventTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="FriendNet" />
+    <configuration name="ContactTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Contact" />
       <option name="PACKAGE_NAME" value="test" />
-      <option name="MAIN_CLASS_NAME" value="test.EventTest" />
+      <option name="MAIN_CLASS_NAME" value="test.ContactTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyProfileTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="FriendNet" />
+    <configuration name="ContactTest.automateResponse" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Contact" />
       <option name="PACKAGE_NAME" value="test" />
-      <option name="MAIN_CLASS_NAME" value="test.MyProfileTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MyProfileTest.testeventNumNearMe" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="FriendNet" />
-      <option name="PACKAGE_NAME" value="test" />
-      <option name="MAIN_CLASS_NAME" value="test.MyProfileTest" />
-      <option name="METHOD_NAME" value="testeventNumNearMe" />
+      <option name="MAIN_CLASS_NAME" value="test.ContactTest" />
+      <option name="METHOD_NAME" value="automateResponse" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyProfileTest.testupcomingEventNum" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="FriendNet" />
+    <configuration name="ContactTest.call" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Contact" />
       <option name="PACKAGE_NAME" value="test" />
-      <option name="MAIN_CLASS_NAME" value="test.MyProfileTest" />
-      <option name="METHOD_NAME" value="testupcomingEventNum" />
+      <option name="MAIN_CLASS_NAME" value="test.ContactTest" />
+      <option name="METHOD_NAME" value="call" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ContactTest.setType" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Contact" />
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.ContactTest" />
+      <option name="METHOD_NAME" value="setType" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -88,11 +98,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main" />
-        <item itemvalue="JUnit.EventTest" />
-        <item itemvalue="JUnit.MyProfileTest" />
-        <item itemvalue="JUnit.MyProfileTest.testupcomingEventNum" />
-        <item itemvalue="JUnit.MyProfileTest.testeventNumNearMe" />
+        <item itemvalue="JUnit.ContactTest" />
+        <item itemvalue="JUnit.ContactTest.automateResponse" />
+        <item itemvalue="JUnit.ContactTest.call" />
+        <item itemvalue="JUnit.ContactTest.setType" />
+        <item itemvalue="Application.Main (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -113,22 +123,26 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="275" y="21" key="#Menus_and_Toolbars/0.0.1366.728@0.0.1366.728" timestamp="1575188601849" />
-    <state x="275" y="21" key="#Project_Structure" timestamp="1575197806252">
+    <state x="275" y="21" key="#Project_Structure" timestamp="1575287260394">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="21" key="#Project_Structure/0.0.1366.728@0.0.1366.728" timestamp="1575197806252" />
+    <state x="275" y="21" key="#Project_Structure/0.0.1366.728@0.0.1366.728" timestamp="1575287260394" />
+    <state x="92" y="92" width="1182" height="544" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1575287991922">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="92" y="92" width="1182" height="544" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1366.728@0.0.1366.728" timestamp="1575287991922" />
     <state x="509" y="78" key="#com.intellij.ide.ui.customization.CustomizableActionsPanel.FindAvailableActionsDialog" timestamp="1575188589826">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="509" y="78" key="#com.intellij.ide.ui.customization.CustomizableActionsPanel.FindAvailableActionsDialog/0.0.1366.728@0.0.1366.728" timestamp="1575188589826" />
-    <state x="488" y="72" key="#com.intellij.ide.util.MemberChooser" timestamp="1575197151692">
+    <state x="488" y="72" key="#com.intellij.ide.util.MemberChooser" timestamp="1575285192238">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="488" y="72" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1575197151692" />
-    <state x="413" y="137" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1575197012849">
+    <state x="488" y="72" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1575285192238" />
+    <state x="413" y="137" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1575287311734">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="413" y="137" key="#com.intellij.ide.util.PackageChooserDialog/0.0.1366.728@0.0.1366.728" timestamp="1575197012849" />
+    <state x="413" y="137" key="#com.intellij.ide.util.PackageChooserDialog/0.0.1366.728@0.0.1366.728" timestamp="1575287311734" />
     <state x="181" y="287" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1575207229938">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -137,25 +151,25 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="324" y="67" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1575202044329" />
-    <state width="1345" height="142" key="GridCell.Tab.0.bottom" timestamp="1575284481111">
+    <state width="1345" height="192" key="GridCell.Tab.0.bottom" timestamp="1575288123842">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="142" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1575284481111" />
+    <state width="1345" height="192" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1575288123842" />
     <state width="1899" height="231" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1575273938226" />
-    <state width="1345" height="142" key="GridCell.Tab.0.center" timestamp="1575284481111">
+    <state width="1345" height="192" key="GridCell.Tab.0.center" timestamp="1575288123842">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="142" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1575284481111" />
+    <state width="1345" height="192" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1575288123842" />
     <state width="1899" height="231" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1575273938226" />
-    <state width="1345" height="142" key="GridCell.Tab.0.left" timestamp="1575284481111">
+    <state width="1345" height="192" key="GridCell.Tab.0.left" timestamp="1575288123842">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="142" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1575284481111" />
+    <state width="1345" height="192" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1575288123842" />
     <state width="1899" height="231" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1575273938226" />
-    <state width="1345" height="142" key="GridCell.Tab.0.right" timestamp="1575284481111">
+    <state width="1345" height="192" key="GridCell.Tab.0.right" timestamp="1575288123842">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="142" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1575284481111" />
+    <state width="1345" height="192" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1575288123842" />
     <state width="1899" height="231" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1575273938226" />
     <state width="1345" height="213" key="GridCell.Tab.1.bottom" timestamp="1575205290772">
       <screen x="0" y="0" width="1366" height="728" />
@@ -173,23 +187,23 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="1345" height="213" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1575205290772" />
-    <state x="101" y="0" key="SettingsEditor" timestamp="1575284076827">
+    <state x="101" y="0" key="SettingsEditor" timestamp="1575287205544">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="101" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1575284076827" />
+    <state x="101" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1575287205544" />
     <state x="733" y="102" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1575272974144" />
     <state x="482" y="139" key="chooseDestDirectoryDialog" timestamp="1575202503652">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="482" y="139" key="chooseDestDirectoryDialog/0.0.1366.728@0.0.1366.728" timestamp="1575202503652" />
-    <state x="387" y="256" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1575204885425">
+    <state x="387" y="256" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1575287293474">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="387" y="256" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1366.728@0.0.1366.728" timestamp="1575204885425" />
-    <state x="454" y="64" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1575197020537">
+    <state x="387" y="256" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1366.728@0.0.1366.728" timestamp="1575287293474" />
+    <state x="454" y="64" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1575287341734">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="454" y="64" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1366.728@0.0.1366.728" timestamp="1575197020537" />
+    <state x="454" y="64" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1366.728@0.0.1366.728" timestamp="1575287341734" />
     <state x="366" y="0" key="new project wizard" timestamp="1575199945918">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
