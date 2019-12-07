@@ -16,11 +16,12 @@ public class Main {
         garden.add(new Beetroot());
 
         for (Vegetable veggie : garden) {
-            System.out.println(veggie.getName());
+            System.out.println("Planting " + veggie.getName() + " :");
+            System.out.println(veggie.getInstructions());
             veggie.feed();
             veggie.water();
-            System.out.println(veggie.getInstructions());
             veggie.harvest();
+            System.out.println();
         }
 
     }
