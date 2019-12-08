@@ -11,7 +11,7 @@ public class BurgerByteTest {
     private BurgerByte restaurant;
     private Manager manager;
     private FryCook frycook;
-    private Cashier cashier;
+    private Employee cashier;
 
     @Before
     public void setUp() {
