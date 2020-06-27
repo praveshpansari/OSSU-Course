@@ -36,7 +36,9 @@ import { DishService } from './services/dish.service';
 import { PromotionService } from './services/promotion.service';
 import { LeaderService } from './services/leader.service';
 import { LoginComponent } from './login/login.component';
-import { getLocaleFirstDayOfWeek } from '@angular/common';
+
+import { HttpClientModule } from '@angular/common/http';
+import { baseURL } from './shared/baseurl';
 
 
 @NgModule({
@@ -55,6 +57,7 @@ import { getLocaleFirstDayOfWeek } from '@angular/common';
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
+    HttpClientModule,
     FormsModule,
     ReactiveFormsModule,
     MatToolbarModule,
@@ -75,7 +78,8 @@ import { getLocaleFirstDayOfWeek } from '@angular/common';
   providers: [
     DishService,
     PromotionService,
-    LeaderService
+    LeaderService,
+    [{ provide: 'BaseURL', useValue: baseURL}]
   ],
   entryComponents: [
     LoginComponent
