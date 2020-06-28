@@ -224,5 +224,79 @@
       "description": "Award winning three-star Michelin chef with wide International experience having worked closely with whos-who in the culinary world, he specializes in creating mouthwatering Indo-Italian fusion experiences. He says, Put together the cuisines from the two craziest cultures, and you get a winning hit! Amma Mia!"
     }
   ],
-  "feedback": []
+  "feedback": [
+    {
+      "firstname": "Pravesh",
+      "lastname": "Pansari",
+      "telnum": "984141222",
+      "email": "praveshpansari@gmail.com",
+      "agree": true,
+      "contacttype": "Email",
+      "message": "asssssss",
+      "id": 1
+    },
+    {
+      "firstname": "Pravesh",
+      "lastname": "Pansari",
+      "telnum": "12345",
+      "email": "praveshpansari@gmail.com",
+      "agree": true,
+      "contacttype": "None",
+      "message": "",
+      "id": 2
+    },
+    {
+      "firstname": "Pravesh",
+      "lastname": "Pansari",
+      "telnum": "984141222",
+      "email": "praveshpansari@gmail.com",
+      "agree": false,
+      "contacttype": "None",
+      "message": "",
+      "id": 3
+    },
+    {
+      "id": 4
+    },
+    {
+      "firstname": "Pravesh",
+      "lastname": "Pansari",
+      "telnum": "984141222",
+      "email": "praveshpansari@gmail.com",
+      "agree": false,
+      "contacttype": "None",
+      "message": "",
+      "id": 5
+    },
+    {
+      "firstname": "Pravesh",
+      "lastname": "Pansari",
+      "telnum": "984141222",
+      "email": "praveshpansari@gmail.com",
+      "agree": false,
+      "contacttype": "None",
+      "message": "",
+      "id": 6
+    },
+    {
+      "firstname": "Pravesh",
+      "lastname": "Pansari",
+      "telnum": "984141222",
+      "email": "praveshpansari@gmail.com",
+      "agree": false,
+      "contacttype": "None",
+      "message": "",
+      "id": 7
+    },
+    {
+      "firstname": "Pravesh",
+      "lastname": "Pansari",
+      "telnum": "1323123",
+      "email": "praveshpansari@gmail.com",
+      "agree": true,
+      "contacttype": null,
+      "message": "asddddd",
+      "id": 8
+    }
+  ]
 }
