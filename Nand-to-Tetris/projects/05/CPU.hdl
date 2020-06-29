@@ -40,4 +40,53 @@ CHIP CPU {
 
     PARTS:
     // Put your code here:
+        // CHeck what type of instruction it is
+        Not(in=instruction[15], out=AInstruction);
+        Not(in=AInstruction,out=CInstruction);
+
+        // If a instruction is provided, use that
+        Mux16(a=ALUOutput, b=instruction, sel=AInstruction, out=ARegisterInstruction);
+
+        // Check wethere it is a instruction, or A-Register Destination bit is set
+        Or(a=AInstruction, b=instruction[5], out=loadA);
+        // Output address if Aregister is set
+        ARegister(in=ARegisterInstruction, load=loadA, out=ARegister, out[0..14]=addressM);
+
+        // Check which input to use, ARegister or inM
+        Mux16(a=ARegister, b=inM, sel=instruction[12], out=ALUSource2);
+
+        // Check if d-register is to be set
+        And(a=instruction[4], b=CInstruction, out=loadD);
+        DRegister(in=ALUOutput, load=loadD, out=DRegister);     // set D register
+
+        // Check if need to write to M, and output M
+        And(a=CInstruction, b=instruction[3], out=writeM, out=CanOutM);
+
+        // Perform ALU Operations
+        ALU(x=DRegister, y=ALUSource2, zx=instruction[11], nx=instruction[10], zy=instruction[9], ny=instruction[8], f=instruction[7], no=instruction[6], out=ALUOutput, zr=outEquals0, ng=outNegative);
+
+        // OutputM if write to M set
+        Mux16(a=false, b=ALUOutput, sel=CanOutM, out=outM);
+
+        // Check if ALU output is positive
+        Or(a=outNegative, b=outEquals0, out=isPositive);
+        Not(in=isPositive, out=outPositive);
+
+        // Check if any jump conditions is true
+        And(a=instruction[2], b=outNegative, out=outJLT);
+        And(a=instruction[1], b=outEquals0, out=outJEQ);
+        And(a=instruction[0], b=outPositive, out=outJGT);
+
+        // Check if need to jump
+        Or(a=outJLT, b=outJEQ, out=JMPCheck1);
+        Or(a=JMPCheck1, b=outJGT, out=JMP);
+
+        // Check if need to increment
+        And(a=CInstruction, b=JMP, out=Load);
+        Not(in=Load, out=Increment);
+
+        // Implement Program COunter
+        PC(in=ARegister, load=Load, inc=Increment, reset=reset, out[0..14]=pc);
+        
+
 }

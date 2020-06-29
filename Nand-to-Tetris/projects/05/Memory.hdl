@@ -27,5 +27,24 @@ CHIP Memory {
     OUT out[16];
 
     PARTS:
-    // Put your code here:
+
+    // Here, Ram = 0 - 16833, Screen = 16834 - 24575, Keyboard = 24576
+    // In binary[14], 16833 = 01111111111111, so we know that any binary below this address
+    // is designated to the RAM
+    // In binary[14], 24575 = 10111111111111, so any address below that and > RAM are screen
+    // In binary[14], 24576 = 11111111111111, so this address is keyboard
+    // For determining the destination, we can simply determine the 1st two bits off the address[14]
+    // Dmux the address bits 13 & 14.
+    // 00 & 01 is RAM, 10 is Screen, 11 is Keyboard (not needed)
+    DMux4Way(in=load, sel=address[13..14], a=RAM1, b=RAM2, c=Screen, d=Keyboard);
+    // Or both the ram selectors to get the control
+    Or(a=RAM1, b=RAM2, out=RAM);
+    // Use 16K Ram with input and selector as above RAM, address the bits 0-13
+    RAM16K(in=in, load=RAM, address=address[0..13], out=RAMOut);
+    // Use Screen with input and load as Screen, address the bits 0-12
+    Screen(in=in, load=Screen, address=address[0..12], out=ScreenOut);
+    // Use keyboard output
+    Keyboard(out=KeyboardOut);
+    // Mux the results using the same destination bits we determined berfore
+    Mux4Way16(a=RAMOut, b=RAMOut, c=ScreenOut, d=KeyboardOut, sel=address[13..14], out=out);
 }
