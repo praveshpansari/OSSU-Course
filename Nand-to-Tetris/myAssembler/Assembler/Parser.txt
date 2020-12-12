@@ -1,0 +1,105 @@
+package Assembler;
+
+import java.io.FileNotFoundException;
+import java.util.Scanner;
+import java.io.File;
+
+public class Parser
+{
+    File assemblyFile;
+    int line;
+    Scanner scan;
+    String command;
+    
+    Parser(final File assemblyFile) throws FileNotFoundException {
+        this.assemblyFile = assemblyFile;
+        this.line = 0;
+        this.command = "";
+        this.scan = new Scanner(this.assemblyFile);
+    }
+    
+    boolean hasMoreCommands() {
+        return this.scan.hasNext();
+    }
+    
+    void advance() {
+        if (this.hasMoreCommands()) {
+            String temp = this.scan.nextLine();
+            final int comment = temp.indexOf("//");
+            if (comment != -1) {
+                temp = temp.substring(0, comment);
+            }
+            temp = temp.trim();
+            temp = temp.replaceAll(" ", "");
+            if (!temp.equals("")) {
+                if (!temp.contains("(")) {
+                    ++this.line;
+                }
+                this.command = temp;
+            }
+            else {
+                this.advance();
+            }
+        }
+    }
+    
+    Instruction commandType() {
+        if (this.command.contains("@")) {
+            return Instruction.A_INSTRUCTION;
+        }
+        if (this.command.contains("(")) {
+            return Instruction.L_INSTRUCTION;
+        }
+        return Instruction.C_INSTRUCTION;
+    }
+    
+    String symbol() {
+        if (this.commandType().equals((Object)Instruction.A_INSTRUCTION)) {
+            return this.command.substring(1);
+        }
+        if (this.commandType().equals((Object)Instruction.L_INSTRUCTION)) {
+            return this.command.substring(1, this.command.indexOf(41));
+        }
+        return "";
+    }
+    
+    String dest() {
+        if (this.commandType().equals((Object)Instruction.C_INSTRUCTION)) {
+            final int hasEqualsSign = this.command.indexOf(61);
+            String destination = "";
+            destination = ((hasEqualsSign != -1) ? this.command.substring(0, hasEqualsSign) : "");
+            return destination.replaceAll("\\s", "");
+        }
+        return "";
+    }
+    
+    String comp() {
+        if (this.commandType().equals((Object)Instruction.C_INSTRUCTION)) {
+            final int hasEqualsSign = this.command.indexOf(61);
+            final int hasSemiColon = this.command.indexOf(59);
+            String computation = "";
+            if (hasEqualsSign != -1) {
+                computation = ((hasSemiColon != -1) ? this.command.substring(hasEqualsSign + 1, hasSemiColon) : this.command.substring(hasEqualsSign + 1));
+            }
+            else {
+                computation = ((hasSemiColon != -1) ? this.command.substring(0, hasSemiColon) : this.command);
+            }
+            return computation.replaceAll("\\s", "");
+        }
+        return "";
+    }
+    
+    String jump() {
+        if (this.commandType().equals((Object)Instruction.C_INSTRUCTION)) {
+            final int hasSemiColon = this.command.indexOf(59);
+            String jump = "";
+            jump = ((hasSemiColon != -1) ? this.command.substring(hasSemiColon + 1) : "");
+            return jump.replaceAll("\\s", "");
+        }
+        return "";
+    }
+    
+    int getLine() {
+        return this.line;
+    }
+}

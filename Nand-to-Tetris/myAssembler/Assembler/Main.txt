@@ -1,0 +1,60 @@
+package Assembler;
+
+import java.io.IOException;
+import java.io.FileWriter;
+import java.io.File;
+
+public class Main
+{
+    public static void main(final String[] args) throws IOException {
+        int address = 16;
+        final File inFile = new File(args[0]);
+        final SymbolTable symbols = new SymbolTable();
+        Parser parser = new Parser(inFile);
+        while (parser.hasMoreCommands()) {
+            parser.advance();
+            if (parser.commandType() == Instruction.L_INSTRUCTION) {
+                final String symbol = parser.symbol();
+                if (symbols.contains(symbol)) {
+                    continue;
+                }
+                symbols.addEntry(symbol, parser.getLine());
+            }
+        }
+        parser = new Parser(inFile);
+        String command = "";
+        String fileName = inFile.getName();
+        if (fileName.indexOf(".") > 0) {
+            fileName = fileName.substring(0, fileName.lastIndexOf("."));
+        }
+        final File outFile = new File(fileName + ".hack");
+        outFile.delete();
+        outFile.createNewFile();
+        final FileWriter writer = new FileWriter(outFile);
+        while (parser.hasMoreCommands()) {
+            parser.advance();
+            if (parser.commandType() == Instruction.C_INSTRUCTION) {
+                command = command + "111" + Code.comp(parser.comp()) + Code.dest(parser.dest()) + Code.jump(parser.jump()) + "\n";
+            }
+            else {
+                if (parser.commandType() != Instruction.A_INSTRUCTION) {
+                    continue;
+                }
+                String symbol2 = "";
+                try {
+                    symbol2 = Integer.toBinaryString(Integer.parseInt(parser.symbol()));
+                }
+                catch (NumberFormatException e) {
+                    if (!symbols.contains(parser.symbol())) {
+                        symbols.addEntry(parser.symbol(), address);
+                        ++address;
+                    }
+                    symbol2 = Integer.toBinaryString(symbols.getAddress(parser.symbol()));
+                }
+                command = command + "0" + String.format("%15s", symbol2).replace(" ", "0") + "\n";
+            }
+        }
+        writer.write(command);
+        writer.close();
+    }
+}
