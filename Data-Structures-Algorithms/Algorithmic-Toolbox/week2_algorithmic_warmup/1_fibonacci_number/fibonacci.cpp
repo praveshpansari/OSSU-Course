@@ -14,32 +14,42 @@
 // 5. Remove the call to test_solution, uncomment the line with a call to fibonacci_fast (and the lines reading the input),
 //    and submit it to the grader.
 
-int fibonacci_naive(int n) {
+int fibonacci_naive(int n)
+{
     if (n <= 1)
         return n;
 
     return fibonacci_naive(n - 1) + fibonacci_naive(n - 2);
 }
 
-int fibonacci_fast(int n) {
+int fibonacci_fast(const int n = 1)
+{
     // write your code here
-
-    return 0;
+    int table[45];
+    table[0] = 0;
+    table[1] = 1;
+    for (int i = 2; i <= n; ++i)
+    {
+        table[i] = table[i - 1] + table[i - 2];
+    }
+    return table[n];
 }
 
-void test_solution() {
+void test_solution()
+{
     assert(fibonacci_fast(3) == 2);
     assert(fibonacci_fast(10) == 55);
     for (int n = 0; n < 20; ++n)
         assert(fibonacci_fast(n) == fibonacci_naive(n));
 }
 
-int main() {
+int main()
+{
     int n = 0;
     std::cin >> n;
 
-    std::cout << fibonacci_naive(n) << '\n';
+    // std::cout << fibonacci_naive(n) << '\n';
     //test_solution();
-    //std::cout << fibonacci_fast(n) << '\n';
+    std::cout << fibonacci_fast(n) << '\n';
     return 0;
 }
