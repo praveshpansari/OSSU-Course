@@ -36,9 +36,14 @@ grad = zeros(size(theta));
 %           grad = grad + YOUR_CODE_HERE (using the temp variable)
 %
 
+% Hypothesis [m x n * n x 1] => [m x 1]
+h = sigmoid(X * theta);
 
+% Cost Function [((1 x m * m x 1) - (1 x m * m x 1))] => [1 x 1] 
+J = ((-y' * log(h)) - (1 - y)' * log(1 - h)) / m + sum(theta(2:end).^2) * lambda / (2 * m);
 
-
+% Grad [n x 1]
+grad = ((h - y)' * X / m)' + [0;theta(2:end)] * lambda / m;
 
 
 

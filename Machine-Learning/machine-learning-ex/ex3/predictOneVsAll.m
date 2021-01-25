@@ -28,8 +28,15 @@ X = [ones(m, 1) X];
 %       max element, for more information see 'help max'. If your examples 
 %       are in rows, then, you can use max(A, [], 2) to obtain the max 
 %       for each row.
-%       
+%
 
+% Hypothesis [(m x n) * (n x labels)] => [m x labels]
+h = sigmoid(X * all_theta');
+
+% Find max for each row in h and store the column(label) index of the max
+% element in p
+% p [m x 1]
+[a p] = max(h,[],2);
 
 
 
