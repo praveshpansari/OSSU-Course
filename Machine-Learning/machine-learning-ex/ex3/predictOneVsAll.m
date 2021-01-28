@@ -36,7 +36,7 @@ h = sigmoid(X * all_theta');
 % Find max for each row in h and store the column(label) index of the max
 % element in p
 % p [m x 1]
-[a p] = max(h,[],2);
+[a,p] = max(h,[],2);
 
 
 
