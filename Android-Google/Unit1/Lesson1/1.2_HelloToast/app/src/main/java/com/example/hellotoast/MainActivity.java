@@ -1,14 +1,15 @@
 package com.example.hellotoast;
 
-import androidx.appcompat.app.AppCompatActivity;
-
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.TextView;
-import android.widget.Toast;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 public class MainActivity extends AppCompatActivity {
 
+    public static final String EXTRA_COUNT = "com.android.hellotoast.extra.COUNT";
     private int mCount = 0;
     private TextView mShowCount;
 
@@ -20,8 +21,9 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void showToast(View view) {
-        Toast toast = Toast.makeText(this, R.string.toast_message, Toast.LENGTH_SHORT);
-        toast.show();
+        Intent intent = new Intent(this, SecondActivity.class);
+        intent.putExtra(EXTRA_COUNT, mCount);
+        startActivity(intent);
     }
 
     public void countUp(View view) {
