@@ -1,0 +1,7 @@
+#Internal package file, do not edit.
+#Mon Feb 22 19:09:47 NPT 2021
+0.baseType=DIRECTORY
+0.base=/run/media/pravesharch/C0F43068F43062B8/OSSU-Course/Android-Google/Unit1/Lesson3/SimpleCalc/app/build/intermediates/transforms/dexMerger/debug/0
+0.path=classes.dex
+0.set=DEX
+count=1

@@ -1,0 +1,4 @@
+#Mon Feb 22 19:09:47 NPT 2021
+base.0=/run/media/pravesharch/C0F43068F43062B8/OSSU-Course/Android-Google/Unit1/Lesson3/SimpleCalc/app/build/intermediates/transforms/dexMerger/debug/0
+path.0=classes.dex
+renamed.0=classes.dex

@@ -1,0 +1,96 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /run/media/pravesharch/C0F43068F43062B8/OSSU-Course/Android-Google/Unit1/Lesson3/SimpleCalc/app/src/main/AndroidManifest.xml:17:1-34:12
+INJECTED from /run/media/pravesharch/C0F43068F43062B8/OSSU-Course/Android-Google/Unit1/Lesson3/SimpleCalc/app/src/main/AndroidManifest.xml:17:1-34:12
+INJECTED from /run/media/pravesharch/C0F43068F43062B8/OSSU-Course/Android-Google/Unit1/Lesson3/SimpleCalc/app/src/main/AndroidManifest.xml:17:1-34:12
+INJECTED from /run/media/pravesharch/C0F43068F43062B8/OSSU-Course/Android-Google/Unit1/Lesson3/SimpleCalc/app/src/main/AndroidManifest.xml:17:1-34:12
+MERGED from [com.android.support:appcompat-v7:27.1.1] /home/pravesharch/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/7e38ccaf9347f3ba962e6cb665d402f4/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:27.1.1] /home/pravesharch/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.1.aar/98d4a9b9fa5d4ceef3c86d80c1f7bd6b/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] /home/pravesharch/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.1.aar/2037e06abfc3c200d8f7c455300a6327/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:27.1.1] /home/pravesharch/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.1.aar/7f20b0de733fdfa451286a188f51ba4b/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:27.1.1] /home/pravesharch/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.1.aar/6a5eeb3894cec92d7060397a1f58fa75/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:27.1.1] /home/pravesharch/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.1.1.aar/03be4a0f198a1f935f3199162bde2aa3/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:27.1.1] /home/pravesharch/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/07ad1728f2aa9a52d4892430c1272cf0/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /home/pravesharch/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/8b1234e477ea9a70e1da21191a659aec/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /home/pravesharch/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/e53a7831299cab03655d93a6e6ede421/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.0] /home/pravesharch/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/7448b4fc297156b9a9491c6d89451c8c/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.0] /home/pravesharch/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/56615f593911b2d94b86f7497d900511/AndroidManifest.xml:17:1-22:12
+INJECTED from /run/media/pravesharch/C0F43068F43062B8/OSSU-Course/Android-Google/Unit1/Lesson3/SimpleCalc/app/src/main/AndroidManifest.xml:17:1-34:12
+INJECTED from /run/media/pravesharch/C0F43068F43062B8/OSSU-Course/Android-Google/Unit1/Lesson3/SimpleCalc/app/src/main/AndroidManifest.xml:17:1-34:12
+INJECTED from /run/media/pravesharch/C0F43068F43062B8/OSSU-Course/Android-Google/Unit1/Lesson3/SimpleCalc/app/src/main/AndroidManifest.xml:17:1-34:12
+	package
+		ADDED from /run/media/pravesharch/C0F43068F43062B8/OSSU-Course/Android-Google/Unit1/Lesson3/SimpleCalc/app/src/main/AndroidManifest.xml:18:5-45
+		INJECTED from /run/media/pravesharch/C0F43068F43062B8/OSSU-Course/Android-Google/Unit1/Lesson3/SimpleCalc/app/src/main/AndroidManifest.xml
+		INJECTED from /run/media/pravesharch/C0F43068F43062B8/OSSU-Course/Android-Google/Unit1/Lesson3/SimpleCalc/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /run/media/pravesharch/C0F43068F43062B8/OSSU-Course/Android-Google/Unit1/Lesson3/SimpleCalc/app/src/main/AndroidManifest.xml
+		ADDED from /run/media/pravesharch/C0F43068F43062B8/OSSU-Course/Android-Google/Unit1/Lesson3/SimpleCalc/app/src/main/AndroidManifest.xml:17:1-34:12
+		INJECTED from /run/media/pravesharch/C0F43068F43062B8/OSSU-Course/Android-Google/Unit1/Lesson3/SimpleCalc/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /run/media/pravesharch/C0F43068F43062B8/OSSU-Course/Android-Google/Unit1/Lesson3/SimpleCalc/app/src/main/AndroidManifest.xml
+		ADDED from /run/media/pravesharch/C0F43068F43062B8/OSSU-Course/Android-Google/Unit1/Lesson3/SimpleCalc/app/src/main/AndroidManifest.xml:17:1-34:12
+		INJECTED from /run/media/pravesharch/C0F43068F43062B8/OSSU-Course/Android-Google/Unit1/Lesson3/SimpleCalc/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /run/media/pravesharch/C0F43068F43062B8/OSSU-Course/Android-Google/Unit1/Lesson3/SimpleCalc/app/src/main/AndroidManifest.xml:17:11-69
+application
+ADDED from /run/media/pravesharch/C0F43068F43062B8/OSSU-Course/Android-Google/Unit1/Lesson3/SimpleCalc/app/src/main/AndroidManifest.xml:20:5-32:19
+	android:supportsRtl
+		ADDED from /run/media/pravesharch/C0F43068F43062B8/OSSU-Course/Android-Google/Unit1/Lesson3/SimpleCalc/app/src/main/AndroidManifest.xml:24:9-35
+	android:label
+		ADDED from /run/media/pravesharch/C0F43068F43062B8/OSSU-Course/Android-Google/Unit1/Lesson3/SimpleCalc/app/src/main/AndroidManifest.xml:23:9-41
+	android:icon
+		ADDED from /run/media/pravesharch/C0F43068F43062B8/OSSU-Course/Android-Google/Unit1/Lesson3/SimpleCalc/app/src/main/AndroidManifest.xml:22:9-43
+	android:allowBackup
+		ADDED from /run/media/pravesharch/C0F43068F43062B8/OSSU-Course/Android-Google/Unit1/Lesson3/SimpleCalc/app/src/main/AndroidManifest.xml:21:9-35
+	android:theme
+		ADDED from /run/media/pravesharch/C0F43068F43062B8/OSSU-Course/Android-Google/Unit1/Lesson3/SimpleCalc/app/src/main/AndroidManifest.xml:25:9-40
+activity#com.example.android.SimpleCalc.MainActivity
+ADDED from /run/media/pravesharch/C0F43068F43062B8/OSSU-Course/Android-Google/Unit1/Lesson3/SimpleCalc/app/src/main/AndroidManifest.xml:26:9-31:20
+	android:name
+		ADDED from /run/media/pravesharch/C0F43068F43062B8/OSSU-Course/Android-Google/Unit1/Lesson3/SimpleCalc/app/src/main/AndroidManifest.xml:26:19-77
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /run/media/pravesharch/C0F43068F43062B8/OSSU-Course/Android-Google/Unit1/Lesson3/SimpleCalc/app/src/main/AndroidManifest.xml:27:13-30:29
+action#android.intent.action.MAIN
+ADDED from /run/media/pravesharch/C0F43068F43062B8/OSSU-Course/Android-Google/Unit1/Lesson3/SimpleCalc/app/src/main/AndroidManifest.xml:28:17-69
+	android:name
+		ADDED from /run/media/pravesharch/C0F43068F43062B8/OSSU-Course/Android-Google/Unit1/Lesson3/SimpleCalc/app/src/main/AndroidManifest.xml:28:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /run/media/pravesharch/C0F43068F43062B8/OSSU-Course/Android-Google/Unit1/Lesson3/SimpleCalc/app/src/main/AndroidManifest.xml:29:17-77
+	android:name
+		ADDED from /run/media/pravesharch/C0F43068F43062B8/OSSU-Course/Android-Google/Unit1/Lesson3/SimpleCalc/app/src/main/AndroidManifest.xml:29:27-74
+uses-sdk
+INJECTED from /run/media/pravesharch/C0F43068F43062B8/OSSU-Course/Android-Google/Unit1/Lesson3/SimpleCalc/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /run/media/pravesharch/C0F43068F43062B8/OSSU-Course/Android-Google/Unit1/Lesson3/SimpleCalc/app/src/main/AndroidManifest.xml
+INJECTED from /run/media/pravesharch/C0F43068F43062B8/OSSU-Course/Android-Google/Unit1/Lesson3/SimpleCalc/app/src/main/AndroidManifest.xml
+MERGED from [com.android.support:appcompat-v7:27.1.1] /home/pravesharch/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/7e38ccaf9347f3ba962e6cb665d402f4/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.1.1] /home/pravesharch/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/7e38ccaf9347f3ba962e6cb665d402f4/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.1] /home/pravesharch/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.1.aar/98d4a9b9fa5d4ceef3c86d80c1f7bd6b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.1] /home/pravesharch/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.1.aar/98d4a9b9fa5d4ceef3c86d80c1f7bd6b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] /home/pravesharch/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.1.aar/2037e06abfc3c200d8f7c455300a6327/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] /home/pravesharch/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.1.aar/2037e06abfc3c200d8f7c455300a6327/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] /home/pravesharch/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.1.aar/7f20b0de733fdfa451286a188f51ba4b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] /home/pravesharch/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.1.aar/7f20b0de733fdfa451286a188f51ba4b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] /home/pravesharch/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.1.aar/6a5eeb3894cec92d7060397a1f58fa75/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] /home/pravesharch/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.1.aar/6a5eeb3894cec92d7060397a1f58fa75/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.1] /home/pravesharch/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.1.1.aar/03be4a0f198a1f935f3199162bde2aa3/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.1] /home/pravesharch/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.1.1.aar/03be4a0f198a1f935f3199162bde2aa3/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] /home/pravesharch/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/07ad1728f2aa9a52d4892430c1272cf0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] /home/pravesharch/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/07ad1728f2aa9a52d4892430c1272cf0/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /home/pravesharch/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/8b1234e477ea9a70e1da21191a659aec/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /home/pravesharch/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/8b1234e477ea9a70e1da21191a659aec/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /home/pravesharch/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/e53a7831299cab03655d93a6e6ede421/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /home/pravesharch/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/e53a7831299cab03655d93a6e6ede421/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] /home/pravesharch/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/7448b4fc297156b9a9491c6d89451c8c/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] /home/pravesharch/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/7448b4fc297156b9a9491c6d89451c8c/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] /home/pravesharch/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/56615f593911b2d94b86f7497d900511/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] /home/pravesharch/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/56615f593911b2d94b86f7497d900511/AndroidManifest.xml:20:5-44
+INJECTED from /run/media/pravesharch/C0F43068F43062B8/OSSU-Course/Android-Google/Unit1/Lesson3/SimpleCalc/app/src/main/AndroidManifest.xml
+INJECTED from /run/media/pravesharch/C0F43068F43062B8/OSSU-Course/Android-Google/Unit1/Lesson3/SimpleCalc/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /run/media/pravesharch/C0F43068F43062B8/OSSU-Course/Android-Google/Unit1/Lesson3/SimpleCalc/app/src/main/AndroidManifest.xml
+		ADDED from /run/media/pravesharch/C0F43068F43062B8/OSSU-Course/Android-Google/Unit1/Lesson3/SimpleCalc/app/src/main/AndroidManifest.xml
+		INJECTED from /run/media/pravesharch/C0F43068F43062B8/OSSU-Course/Android-Google/Unit1/Lesson3/SimpleCalc/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /run/media/pravesharch/C0F43068F43062B8/OSSU-Course/Android-Google/Unit1/Lesson3/SimpleCalc/app/src/main/AndroidManifest.xml
+		ADDED from /run/media/pravesharch/C0F43068F43062B8/OSSU-Course/Android-Google/Unit1/Lesson3/SimpleCalc/app/src/main/AndroidManifest.xml
+		INJECTED from /run/media/pravesharch/C0F43068F43062B8/OSSU-Course/Android-Google/Unit1/Lesson3/SimpleCalc/app/src/main/AndroidManifest.xml
